@@ -1,0 +1,22 @@
+DEPLOY TO CLOUD FOUNDRY
+======================================================================================
+
+cds add hana (No need for this exercise - but you will need this for certification)
+cds add xsuaa (this is for security)
+cds add mta (this allows you to deploy - a file named mta.yaml is created)
+
+
+cf login -a https://api.cf.us21.hana.ondemand.com
+mbt build (builds the project)
+cf deploy mta_archive/random.....0.0.1.mtar
+
+
+
+GITHUB COMMANDS
+===============================================================
+git init
+git add .
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/Sasha-ro/Random.git
+git push -u origin main

@@ -1,0 +1,16 @@
+{
+  "name": "cap-unbound-action-app",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Minimal CAP app with one unbound action",
+  "scripts": {
+    "start": "cds serve",
+    "watch": "cds watch"
+  },
+  "dependencies": {
+    "@sap/cds": "^8"
+  },
+  "devDependencies": {
+    "@sap/cds-dk": "^8"
+  }
+}
