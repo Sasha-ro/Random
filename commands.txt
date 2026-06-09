@@ -7,8 +7,9 @@ cds add mta (this allows you to deploy - a file named mta.yaml is created)
 
 
 cf login -a https://api.cf.us21.hana.ondemand.com
+npm i
 mbt build (builds the project)
-cf deploy mta_archive/random.....0.0.1.mtar
+cf deploy mta_archives/random.....0.0.1.mtar
 
 
 
